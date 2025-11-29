@@ -92,12 +92,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <form method="post" action="index.php">
             <label for="imie">Wprowadź swoje imię:</label>
-            <input type="text" id="imie" name="imie" required placeholder="np. Jan Kowalski">
+            <input type="text" id="imie" name="imie" required placeholder="Imię Nazwisko">
             <input type="submit" value="Wyślij do serwera">
         </form>
 
         <p style="text-align: center; margin-top: 30px;">
-            Ten ruch jest monitorowany przez Google Analytics i Azure Monitor (Zadanie 6).
+         Google Analytics i Azure Monitor
         </p>
     </div>
 </body>
